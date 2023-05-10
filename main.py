@@ -6,6 +6,7 @@ import os.path
 CUR_PATH = ''
 SEED = 716
 CHOICES = ['choice1', 'choice2', 'choice3', 'choice4']
+FONT = 'Courier 11'
 
 # First the window layout in 2 columns
 file_list_column = [

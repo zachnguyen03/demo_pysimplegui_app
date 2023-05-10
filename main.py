@@ -1,7 +1,7 @@
 import PySimpleGUI as sg
 from os import curdir
 import os.path
-
+from PIL import Image
 
 CUR_PATH = ''
 SEED = 716
@@ -82,8 +82,8 @@ layout = [
         sg.Column(image_viewer_column),
         sg.VSeparator(),
         sg.Column(instructions_column),
-       [sg.Button('METHOD 1'),
-        sg.Combo(CHOICES, default_value=STYLES[0], key="style"),
+        [sg.Button('METHOD 1'),
+        sg.Combo(CHOICES, default_value=CHOICES[0], key="style"),
         sg.Button('METHOD 2'),
         sg.Exit()],
     ]
